@@ -1,0 +1,1 @@
+import{readFile}from'node:fs/promises';for(const f of['../demo/index.html','../README.md']){const s=await readFile(new URL(f,import.meta.url),'utf8');if(!s.trim())throw Error(`Empty ${f}`);if(/ghp_|sk-[A-Za-z0-9]{20,}|bearer\s+|api[_-]?key/i.test(s))throw Error(`Sensitive detail in ${f}`)}console.log('Validated property showcase');
