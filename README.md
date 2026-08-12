@@ -2,6 +2,16 @@
 
 A sanitized portfolio case study for a property-sales operating system covering listings, buyer qualification, viewing coordination, offers, agent performance, follow-ups, and conversion reporting.
 
+## Product preview
+
+| Property command | Listings |
+| --- | --- |
+| ![Property command](screenshots/dashboard.png) | ![Listings](screenshots/listings.png) |
+| Buyer pipeline | Viewing calendar |
+| ![Buyer pipeline](screenshots/pipeline.png) | ![Viewing calendar](screenshots/viewings.png) |
+
+![Portfolio reports](screenshots/reports.png)
+
 ```mermaid
 flowchart LR
  A[Listing portfolio] --> B[Property command]
