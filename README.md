@@ -1,5 +1,7 @@
 # Real Estate Command Center — Portfolio Showcase
 
+![Exact dashboard shown on Rico Integration](screenshots/portfolio-preview.png)
+
 A sanitized portfolio case study for a property-sales operating system covering listings, buyer qualification, viewing coordination, offers, agent performance, follow-ups, and conversion reporting.
 
 ## Product preview
